@@ -115,8 +115,7 @@ in {
       };
 
       userName = mkOption {
-        type = types.nullOr types.str;
-        default = null;
+        type = types.str;
         description = "Default user name to use.";
       };
 
